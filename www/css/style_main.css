@@ -7,7 +7,6 @@ html {
 
 body {
 	background-color: #fff;
-    ~background: url(img/bgb/011.jpg);
 	margin: 0; padding: 0;
 }
 
@@ -72,11 +71,6 @@ table.mainT{
 table.payT{
 	height: 60px;
 }
-/*
-table.payT td{
-	~width: 80px;
-	~padding: 0 0 0 10px;
-}*/
 
 #txFZ, #txFZD, .txtOFF  {
     font-size: 20px;
@@ -112,7 +106,6 @@ input.alarmT {
 
 #time {		/* Настройки темы времени для всех */
    text-align: center;
-   ~width: 900px;
    margin: 0 auto;
    cursor: default;
    font-family: Verdana;
@@ -161,9 +154,9 @@ input.alarmT {
 .msgbox {
 	position: absolute;
 	width: 432px;
-	~height: 296px; /* 220 */
 	z-index: 200;
-	background: #f9f9f9;
+	~background: #f9f9f9;
+	background: #ffffff;
 	top: 0px;
 	right: -400px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -175,12 +168,9 @@ input.alarmT {
 	width: 360px;
 	height: 130px; /* 220 */
 	z-index: 250;
-	~border: 2px solid #222;
-	~background: url('../img/dim.png');
 	background: #f9f9f9;
 	top: 50%;
 	margin: 0 auto;
-	~display: none;
 	box-shadow: rgba(0, 0, 0, 0.3) 0 0 6px 0px;
 	margin-top: -80px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -189,7 +179,7 @@ input.alarmT {
 }
 
 #input {
-	width: 104px;
+	width: 104px; /* 104 */
 	height: 52px;
 	cursor: pointer;
 	opacity: 0;
@@ -201,11 +191,6 @@ input.alarmT {
 	text-transform: uppercase;
 	text-align: center;
 }
-/*
-.alrTIME {
-	width: 100px;
-	text-align: right; 
-}*/
 
 .alrBTOFF {
 	width: 360px;
@@ -239,9 +224,7 @@ input.alarmT {
 	text-align: center;
 	width: 180px;
 	margin: 0 auto;
-	~color: #2196F3;
 	cursor: pointer;
-	~display: none;
 }
 
 .timTIM {
@@ -253,50 +236,25 @@ input.alarmT {
 	height: 46px;
 	margin: 6px;
 	opacity: 0.7;
-	~border: 1px solid #2196F3;
 	cursor: pointer;
 }
 
-/*
-.inTable {
-	width: 432px; 
-	font-family: Arial, Helvetica, sans-serif;
-	color: rgba(000,000,000,0.54);
-	~color: #f2f2f2;
-	margin: 0;
-	padding: 0;
-	border: 0;
-}*/		
-/*
-.inTable2 {
-	width: 350px; 
-	height: 120px; 
-	font-family: Arial, Helvetica, sans-serif;
-	color: rgba(000,000,000,0.54);
-	~color: #f2f2f2;
-	margin: 0;
-	padding: 0;
-}*/
-/*
-.inTable2 tr td {
-	padding: 2px 2px 0 2px;
-	text-align: left;
-	vertical-align: center;
-	font-size: 15px;
-}*/	
-
-
 .punkt {
 	width: 426px;
-	height: 40px;
+	height: 46px; /* 40 */
 	padding: 10px 0 6px 2px;
 	~outline: 1px solid #424242;
 	border-bottom: 1px solid #e0e0e0;
 	cursor: pointer;
+	opacity: 0.7;
+	background: #ffffff;
 }
 
 .punkt:hover {
-	opacity: 0.8;
+	opacity: 0.9;
+	~box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+	~border-bottom: none;
+	~height: 47px;
 }
 
 .setHead {
@@ -322,7 +280,6 @@ input.alarmT {
 .iS {background: url("../img/icon/ic_alarm_on_black_36dp_1x.png") no-repeat center top;}
 .iT {background: url("../img/icon/ic_timer_black_36dp_1x.png") no-repeat center top;}
 .iO {background: url("../img/icon/ic_info_outline_black_36dp_1x.png") no-repeat center top;}
-
 .iD {background: url("../img/icon/ic_volume_up_black_24dp_1x.png") no-repeat center bottom;}
 .iM {background: url("../img/icon/ic_notifications_none_black_24dp_1x.png") no-repeat center top;}
 
@@ -352,42 +309,13 @@ input.alarmT {
 	opacity: 0;
 }
 
-/* Иконки для шаринга */
-/*
-.sicon {
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	~background: url("../img/icon/ic_settings_black_36dp_1x.png") no-repeat center top;
-	opacity: 0.54;
-	float: right;
-	margin-top: -4px;
-	cursor: pointer;
-}
-
-.sicon:hover{
-	opacity: 0.9;
-}
-
-.vk {
-	background: url("../img/sicon/vk.png") no-repeat center top;
-}
-.fb {
-	background: url("../img/sicon/fb.png") no-repeat center top;
-}
-.gp {
-	background: url("../img/sicon/gp.png") no-repeat center top;
-}
-.tw {
-	background: url("../img/sicon/tw.png") no-repeat center top;
-}
-*/
 .wind {
 	width: 426px;
 	height: 200px;
 	display: none;
 	~opacity: 0;
 	border-bottom: 1px solid #e0e0e0;
+	background-color: #f9f9f9;
 }
 
 .tab {
@@ -437,11 +365,12 @@ input.alarmT {
 
 /* Окно непосредственных настроек */
 .setWin {
-	background-color: #ffffff;
+	~background-color: #ffffff;
 	width: 426px;
 	height: 162px;
 	display: none;
 	font-size: 16px;
+	background-color: #f9f9f9;
 }
 
 .wAbout p.pay {
@@ -476,55 +405,3 @@ p.txto a{
     height: 52.5px;
     cursor: pointer;
 }
-/*
-.setStyleTo, .setStyleTo9 {
-	height: 70px;
-	~width: 150px;
-	cursor: pointer;
-	background-repeat: no-repeat;
-}*/
-
-/*
-table.lastSetings {
-	~width: 100.5%;
-	height: 30px;
-	cursor: default;
-}*/
-/*
-table.lastSetings tr td {
-	padding: 2px 2px 0 2px;
-	text-align: center;
-	vertical-align: center;
-	font-size: 13px;
-	text-transform: uppercase;
-}*/
-/*
-table.lastSetings tr td a {
-	color: #f2f2f2;
-	text-transform: none;
-}*/
-/*
-#save {
-	font-size: 13px;
-	cursor: pointer;
-	color: #f2f2f2;
-	padding-top: 2px;
-	background-color: #FF8800;
-	text-shadow: 0 0 0.2em #333;
-	text-transform: none;
-}
-
-#save:hover {
-	background-color: #FFBB33;
-}	*/
-/*
-#checkDate, #checkSec {
-	display:inline-block;
-	width: 42px;
-	height: 22px; 
-	background-color: #f2f2f2;
-	background-image: url(../img/dsgSwitchSS1.png);
-	background-repeat: no-repeat;
-	background-position: -24px 0px;
-	cursor: pointer;
-}*/
