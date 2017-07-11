@@ -1,17 +1,4 @@
-# Часы Google Chrome ™
-
-Офлайн-приложение.
-Красивые часы для вашего браузера.
-https://chrome.google.com/webstore/detail/часы-google-chrome/mgncpkiipngfoidimibillghfiplnede
-
-Версия 3.1:
-- Возможность установки собственного фонового изображения;
-- Будильник;
-- Секундомер;
-- Таймер;
-- Обновлены и добавлены фоновые изображения;
-- Изменен внешний вид настроек приложения;
-- Добавлены дополнительные настройки отображения времени и даты;
-- Устранены мелкие ошибки и добавлены новые.
-Присылайте отзывы и предложения на email: mccrush2027@gmail.com 
-
+# Часы Google Chrome
+<strong>v3.1.0</strong><br>
+Beautiful clock for Google Chrome browser<br>
+<a href="https://chrome.google.com/webstore/detail/%D1%87%D0%B0%D1%81%D1%8B-google-chrome/mgncpkiipngfoidimibillghfiplnede" target="_blank">Available in the Chrome Web Store</a>
